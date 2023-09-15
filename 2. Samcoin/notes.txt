@@ -1,0 +1,17 @@
+Following 3 steps:
+
+1. Creating blockchain cryptocurrency
+2. Mining our blockchain
+3. Decentralizing our blockchain
+
+The cryptocurrency was created, but it was pretty basic.
+Like I could send anyone, whatever amount I could.
+Also, we are saving transactions that they will be stored in the next block, but if some other peer mines that block, the transaction on my node will not get included in the chain, and will only get included if I, the node itself mines the block which has the transaction.
+
+
+So, transactions should go to everyone.
+
+Also, no communication between the different nodes. Need to handle that also.
+
+
+create own function: verify proof, same code used twice in "proofOfWork" and "isChainValid"
